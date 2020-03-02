@@ -1,0 +1,164 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+.clear {
+	clear: both;
+	height: 63px;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+	flex-direction: column;
+}
+
+html, body {
+	height:  100%;
+}
+
+.margin-2 {
+	margin-top: 2%;
+}
+
+
+/*Цвет фона*/
+
+.bg-AliceBlue {
+  background-color: #F0F8FF!important;
+}
+
+/*Цвет текста*/
+
+.tc-Teal {
+  color: #008080!important;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+/*Ссылки*/
+
+a {
+  text-decoration: none !important;
+  color: #000000e6;
+}
+a:link {
+  color: #000000e6; 
+}
+a:visited {
+  color: #000000e6;
+}
+a:hover {
+  color: #000000e6; 
+  border-bottom: 1px solid #008080; 
+  border-top: 1px solid #008080; 
+}
+a:active {
+  color: #008080;
+  border-bottom: 1px solid #008080; 
+  border-top: 1px solid #008080; 
+}
+
+.link-head {
+  padding: 10px;
+}
+
+/*Страницы*/
+
+.content-border {
+  border: 0.5px   solid #008080; 
+  border-radius: 10px;
+  background: white; 
+  padding: 10px; 
+}
+
+.content {
+  text-align: center;
+}
+
+.named {
+  text-align: center;
+}
+
+.list-group-item {
+  border: none;
+}
+
+.list-group-item.active {
+  background-color: teal;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.m-23 {
+  margin-left: 23%;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.my-p-m {
+  padding: 0 20px;
+  margin: 0 0 0;
+}
+
+.badge.badge-secondary {
+  background-color: teal;
+  padding: 3.8px 5px;
+  font-size: medium;
+}
+
+.progress-bar {
+  background-color: teal;
+}
+
+.progress {
+  height: 2rem;
+}
+
+
+
+/*Страница входа*/
+
+.enter-logo {
+  width: 40%;
+  margin-left: 30%;
+  padding: 100px 0 50px 0;
+  color: teal;
+}
+
+.enter {
+  width: 40%;
+  margin-left: 30%;
+  padding: 10px;
+}
+
+.enter-border {
+  border: 0.5px   solid #008080; 
+  border-radius: 10px;
+  padding: 10px; 
+}
+
+.btn-enter {
+  background-color: teal;
+  color: white;
+  padding: 0.305rem 1.75rem;
+}
+
+
+footer {
+  flex: 0 0 auto;
+  text-align: center;
+  font-size: small;
+  color: #00000080;
+	background: #F0F8FF;
+	padding: 17px 0 18px 0;
+	border-top: 1px solid #F0F8FF;
+}
+
+footer p {
+  margin: 0;
+}
