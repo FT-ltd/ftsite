@@ -50,13 +50,13 @@ a:visited {
 }
 a:hover {
   color: #000000e6; 
-  border-bottom: 1px solid #008080; 
-  border-top: 1px solid #008080; 
+  border: 1px solid rgba(0,0,0,.125) !important;
+  
 }
 a:active {
   color: #008080;
-  border-bottom: 1px solid #008080; 
-  border-top: 1px solid #008080; 
+  border: 1px solid rgba(0,0,0,.125) !important;
+
 }
 
 .link-head {
