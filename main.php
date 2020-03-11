@@ -17,22 +17,34 @@
          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse m-23" id="navbarText">
+        <div class="btn-group">
+            <button class="btn btn-person btn-sm dropdown-toggle" type="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+               Фудзияма Ф. Ф.
+            </button>
+            <div class="dropdown-menu person">
+                <a href="#">Профиль</a><br>
+                <a href="#">Оценки</a><br>
+                <a href="#">Настройки</a><br>
+                <a href="#">Выход</a>
+            </div>
+        </div>
+        <div class="collapse navbar-collapse m-12" id="navbarText">
           <ul class="navbar-nav mr-auto">
-            <li class="active">
-              <a class="link-head" href="main.php">Главная <span class="sr-only">(current)</span></a>
+            <li>
+              <a class="link-head active" href="main.php">Главная <span class="sr-only">(current)</span></a>
             </li>
             <li >
-              <a class="link-head" href="#">Уроки</a>
+              <a class="link-head" href="lessons.php">Уроки</a>
             </li>
             <li>
-              <a class="link-head" href="#">ПДД</a>
+              <a class="link-head" href="pdd.php">ПДД</a>
             </li>
             <li>
-              <a class="link-head" href="#">Билеты</a>
+              <a class="link-head" href="tickets.php">Билеты</a>
             </li>
             <li>
-              <a class="link-head" href="#">Экзамен</a>
+              <a class="link-head" href="exam.php">Экзамен</a>
             </li>
           </ul>
           <span>
@@ -40,8 +52,10 @@
           </span>
         </div>
     </nav>
+    
 
     <div class="margin-2"></div>
+
     
     <div class="wrapper">
         <div class="container">
@@ -58,7 +72,7 @@
                     href="#list-contacts" role="tab" aria-controls="contacts">Контакты</a>
                   </div>
                 </div>
-                <div class="col-6">
+                <div class="col-9">
                   <div class="tab-content content-border" id="nav-tabContent" >
                     <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
                         <div class="named">
@@ -141,21 +155,6 @@
                         </div>
                     </div>
                   </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="content-border">
-                        <div class="content-profile">
-                            <ul class="list-group">
-                                <li class="list-group-item"><a href="#" >Личный кабинет</a></li>
-                                <li class="list-group-item">Ваш средний балл: <span class="badge badge-secondary">4,5</span></li>
-                                <li class="list-group-item ">Курс выполнен на:</li>
-                                <li class="list-group-item text-center "><div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" 
-                                    aria-valuemin="0" aria-valuemax="100">25%</div>
-                                  </div></li>     
-                              </ul>
-                        </div>
-                    </div>
                 </div>
               </div>
         </div>
