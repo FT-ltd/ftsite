@@ -1,3 +1,4 @@
+<?php include __DIR__.'/assets/php/config.php'; ?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -9,6 +10,14 @@
     <link href="assets/css/style.css" rel="stylesheet">
     
 </head>
+
+<?php if(AUTH) { //Если мы авторизированы ?>
+
+   
+
+<?php } else { //Если мы не авторизированы  ?>
+
+
 <!-- Страница входа -->
 <body class="bg-AliceBlue">
     <div class="container">
@@ -26,18 +35,21 @@
             <div class="row">
                 <div class="content enter enter-border">
                     <div class="col-lg-12">
-                        <form id = 'forma' action= 'get.php method = 'post>
+                        <form id = 'forma' action= 'assets/php/login.php' method = 'post'>
                             <div class="form-group">
-                            <label for="exampleInputEmail1">Чтобы продолжить, войдите в систему</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                            <label for="inputEmail">Чтобы продолжить, войдите в систему</label>
+                            <input type="email" name="login" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Email">
                             </div>
                             <div class="form-group">
-                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Пароль">
+                            <input type="password" name="password" class="form-control" id="inputPassword" placeholder="Пароль">
                             <span><a href="#">забыли пароль?</a></span> 
+                            <?php if(!empty($message)) { ?>
+                             <p><?php echo $message; ?></p>
+                             <?php } ?>
                             </div>
                             <div class="form-group form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1">Запомнить</label>
+                            <input type="checkbox" name ="checkbox" class="form-check-input" id="rememberMe">
+                            <label class="form-check-label" for="rememberMe">Запомнить</label>
                             </div>
                             <button type="submit" class="btn btn-enter">Войти</button>
                         </form>
@@ -53,7 +65,7 @@
     </footer>
     
    
-
+    <?php } ?>
 
 
 
