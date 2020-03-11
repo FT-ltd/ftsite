@@ -9,6 +9,7 @@
     <link href="assets/css/style.css" rel="stylesheet">
     
 </head>
+<!-- Страница входа -->
 <body class="bg-AliceBlue">
     <div class="container">
         <div class="row">

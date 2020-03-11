@@ -10,8 +10,9 @@
     
 </head>
 <body>
+<!-- Главная страница -->
     <nav class="navbar navbar-expand-lg navbar-light bg-AliceBlue">
-        <a class="navbar-brand tc-Teal" href="#" >Теория Онлайн</a>
+        <a class="navbar-brand tc-Teal" href="main.php">Теория Онлайн</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -19,7 +20,7 @@
         <div class="collapse navbar-collapse m-23" id="navbarText">
           <ul class="navbar-nav mr-auto">
             <li class="active">
-              <a class="link-head" href="#">Главная <span class="sr-only">(current)</span></a>
+              <a class="link-head" href="main.php">Главная <span class="sr-only">(current)</span></a>
             </li>
             <li >
               <a class="link-head" href="#">Уроки</a>
