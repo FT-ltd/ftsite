@@ -11,14 +11,14 @@
     
 </head>
 
-<?php if(AUTH) { //Если мы авторизированы ?>
+<?php if(AUTH) { //Если мы авторизированы
 
-   
+    header('Location: main.php');
 
-<?php } else { //Если мы не авторизированы  ?>
+ } else { //Если мы не авторизированы  ?>
 
 
-<!-- Страница входа -->
+<!-- Страница входа --> 
 <body class="bg-AliceBlue">
     <div class="container">
         <div class="row">

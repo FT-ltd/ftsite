@@ -1,7 +1,7 @@
 <?php
 header('Content-type: text/html;charset=utf-8');
 session_start();
-require_once 'connection.php';
+require_once __DIR__.'connection.php';
 define('SALT', 'As913yr-1u3 -ru1 mr=1r=1 m=0r813'); //рандомная строка
 
 
