@@ -1,4 +1,12 @@
-<?php include __DIR__.'/assets/php/config.php'; ?>
+<?php include __DIR__.'//lib//log_in.php'; ?>
+<?php if(AUTH == 'true') { //Если мы авторизированы
+
+    header('Location: main.php');
+
+                } else { //Если мы не авторизированы  ?>
+
+
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -10,14 +18,6 @@
     <link href="assets/css/style.css" rel="stylesheet">
     
 </head>
-
-<?php if(AUTH) { //Если мы авторизированы
-
-    header('Location: main.php');
-
- } else { //Если мы не авторизированы  ?>
-
-
 <!-- Страница входа --> 
 <body class="bg-AliceBlue">
     <div class="container">
@@ -38,20 +38,24 @@
                         <form id = 'forma' action= 'assets/php/login.php' method = 'post'>
                             <div class="form-group">
                             <label for="inputEmail">Чтобы продолжить, войдите в систему</label>
-                            <input type="email" name="login" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Email">
+                            <input name="user" type="email"  class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="login">
                             </div>
                             <div class="form-group">
-                            <input type="password" name="password" class="form-control" id="inputPassword" placeholder="Пароль">
-                            <span><a href="#">забыли пароль?</a></span> 
-                            <?php if(!empty($message)) { ?>
-                             <p><?php echo $message; ?></p>
-                             <?php } ?>
+                            <input name="password" type="password"  class="form-control" id="inputPassword" placeholder="Пароль">
+                            <span>
+                            <?php if(!empty($message)) 
+                           {
+                             
+                            echo "<a href=\"$message\">$message</a>";
+                           
+                           }?>
+                           </span> 
                             </div>
                             <div class="form-group form-check">
-                            <input type="checkbox" name ="checkbox" class="form-check-input" id="rememberMe">
+                            <input type="checkbox" name ="remember" class="form-check-input" id="rememberMe">
                             <label class="form-check-label" for="rememberMe">Запомнить</label>
                             </div>
-                            <button type="submit" class="btn btn-enter">Войти</button>
+                            <button type="submit" id = "log_in" value="log_in" class="btn btn-enter">Войти</button>
                         </form>
                     </div>
                 </div>
@@ -65,7 +69,7 @@
     </footer>
     
    
-    <?php } ?>
+    
 
 
 
@@ -75,3 +79,4 @@
     <script src="assets/js/bootstrap.min.js"></script>
 </body>
 </html>
+<?php } ?>
