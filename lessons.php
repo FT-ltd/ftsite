@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
+<head> 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
@@ -17,22 +17,34 @@
          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse m-23" id="navbarText">
+        <div class="btn-group">
+            <button class="btn btn-person btn-sm dropdown-toggle" type="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+               Фудзияма Ф. Ф.
+            </button>
+            <div class="dropdown-menu person">
+                <a href="#">Профиль</a><br>
+                <a href="#">Оценки</a><br>
+                <a href="#">Настройки</a><br>
+                <a href="#">Выход</a>
+            </div>
+        </div>
+        <div class="collapse navbar-collapse m-12" id="navbarText">
           <ul class="navbar-nav mr-auto">
-            <li class="active">
+            <li>
               <a class="link-head" href="main.php">Главная <span class="sr-only">(current)</span></a>
             </li>
             <li >
-              <a class="link-head" href="#">Уроки</a>
+              <a class="link-head active" href="lessons.php">Уроки</a>
             </li>
             <li>
-              <a class="link-head" href="#">ПДД</a>
+              <a class="link-head" href="pdd.php">ПДД</a>
             </li>
             <li>
-              <a class="link-head" href="#">Билеты</a>
+              <a class="link-head" href="tickets.php">Билеты</a>
             </li>
             <li>
-              <a class="link-head" href="#">Экзамен</a>
+              <a class="link-head" href="exam.php">Экзамен</a>
             </li>
           </ul>
           <span>
@@ -40,27 +52,25 @@
           </span>
         </div>
     </nav>
-
     <div class="margin-2"></div>
-    
     <div class="wrapper">
         <div class="container">
             <div class="row">
                 <div class="col-3">
                   <div class="list-group content-border" id="list-tab" role="tablist">
-                    <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list"
-                     href="#list-home" role="tab" aria-controls="home">Новости</a>
-                    <a class="list-group-item list-group-item-action" id="list-rules-list" data-toggle="list"
-                     href="#list-rules" role="tab" aria-controls="rules">Правила курса</a>
-                    <a class="list-group-item list-group-item-action" id="list-info-list" data-toggle="list" 
-                    href="#list-info" role="tab" aria-controls="info">Полезная информация</a>
-                    <a class="list-group-item list-group-item-action" id="list-contacts-list" data-toggle="list" 
-                    href="#list-contacts" role="tab" aria-controls="contacts">Контакты</a>
+                    <a class="list-group-item list-group-item-action active" id="list-chapter-list" data-toggle="list"
+                     href="#list-chapter" role="tab" aria-controls="chapter">Оглавление</a>
+                    <a class="list-group-item list-group-item-action" id="list-chapter1-list" data-toggle="list"
+                     href="#list-chapter1" role="tab" aria-controls="chapter1">Глава 1</a>
+                    <a class="list-group-item list-group-item-action" id="list-chapter2-list" data-toggle="list" 
+                    href="#list-chapter2" role="tab" aria-controls="chapter2">Глава 2</a>
+                    <a class="list-group-item list-group-item-action" id="list-chapter3-list" data-toggle="list" 
+                    href="#list-chapter3" role="tab" aria-controls="chapter3">Глава 3</a>
                   </div>
                 </div>
-                <div class="col-6">
+                <div class="col-9">
                   <div class="tab-content content-border" id="nav-tabContent" >
-                    <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                    <div class="tab-pane fade show active" id="list-chapter" role="tabpanel" aria-labelledby="list-chapter-list">
                         <div class="named">
                             <h3>Новости</h3>
                         </div>
@@ -86,9 +96,9 @@
                             <hr>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="list-rules" role="tabpanel" aria-labelledby="list-rules-list">
+                    <div class="tab-pane fade" id="list-chapter1" role="tabpanel" aria-labelledby="list-chapter1-list">
                         <div class="named">
-                            <h3>Правила курса</h3>
+                            <h3>Глава 1</h3>
                         </div>
                         <div class="content">
                             <hr>
@@ -110,9 +120,9 @@
                             <hr>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="list-info" role="tabpanel" aria-labelledby="list-info-list">
+                    <div class="tab-pane fade" id="list-chapter2" role="tabpanel" aria-labelledby="list-chapter2-list">
                         <div class="named">
-                            <h3>Полезная информация</h3>
+                            <h3>Глава 2</h3>
                         </div>
                         <div class="content">
                             <hr>
@@ -122,9 +132,9 @@
                             <hr>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="list-contacts" role="tabpanel" aria-labelledby="list-contacts-list">
+                    <div class="tab-pane fade" id="list-chapter3" role="tabpanel" aria-labelledby="list-chapter3-list">
                         <div class="named">
-                            <h3>Контакты</h3>
+                            <h3>Глава 3</h3>
                         </div>
                         <div class="content">
                             <hr>
@@ -134,28 +144,10 @@
                                 Почта: info@prokatimcy.ru <br>
                                 Адрес: Санкт-Петербург, ул. Савушкина, д. 141, 2 этаж, оф. 202 <br>
                             </p>
-                            <p>
-                                <img src="assets/img/karta141.png" >
-                            </p>
                             <hr>
                         </div>
                     </div>
                   </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="content-border">
-                        <div class="content-profile">
-                            <ul class="list-group">
-                                <li class="list-group-item"><a href="#" >Личный кабинет</a></li>
-                                <li class="list-group-item">Ваш средний балл: <span class="badge badge-secondary">4,5</span></li>
-                                <li class="list-group-item ">Курс выполнен на:</li>
-                                <li class="list-group-item text-center "><div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" 
-                                    aria-valuemin="0" aria-valuemax="100">25%</div>
-                                  </div></li>     
-                              </ul>
-                        </div>
-                    </div>
                 </div>
               </div>
         </div>

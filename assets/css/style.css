@@ -21,6 +21,22 @@ html, body {
 	margin-top: 2%;
 }
 
+/*Кнопка личного кабинета*/
+
+.dropdown-menu {
+  font-size: small;
+  text-align: center;
+  min-width: 6rem !important;
+  left: 22px;
+}
+
+.btn-person {
+  color: black;
+  background-color: #F0F8FF;
+  border-color: #F0F8FF;
+ 
+}
+
 
 /*Цвет фона*/
 
@@ -56,14 +72,19 @@ a:hover {
 a:active {
   color: #008080;
   border: 1px solid rgba(0,0,0,.125) !important;
+}
 
+a.link-head.active {
+  color: #008080;
 }
 
 .link-head {
   padding: 10px;
 }
 
-/*Страницы*/
+
+
+/*Страницы общее*/
 
 .content-border {
   border: 0.5px   solid #008080; 
@@ -92,8 +113,8 @@ a:active {
   text-align: center;
 }
 
-.m-23 {
-  margin-left: 23%;
+.m-12 {
+  margin-left: 12%;
 }
 
 .text-left {
@@ -119,6 +140,17 @@ a:active {
   height: 2rem;
 }
 
+/*Страница уроки*/
+
+.menu-ped {
+  padding: 1.5px;
+}
+
+/*Страница пдд*/
+
+.content-pdd {
+  text-align: left;
+}
 
 
 /*Страница входа*/
@@ -148,6 +180,7 @@ a:active {
   padding: 0.305rem 1.75rem;
 }
 
+/*Низ страницы*/
 
 footer {
   flex: 0 0 auto;
