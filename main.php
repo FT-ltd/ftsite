@@ -60,7 +60,7 @@
     <div class="wrapper">
         <div class="container">
             <div class="row">
-                <div class="col-3">
+                <div class="col-lg-3">
                   <div class="list-group content-border" id="list-tab" role="tablist">
                     <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list"
                      href="#list-home" role="tab" aria-controls="home">Новости</a>
@@ -72,7 +72,7 @@
                     href="#list-contacts" role="tab" aria-controls="contacts">Контакты</a>
                   </div>
                 </div>
-                <div class="col-9">
+                <div class="col-lg-9">
                   <div class="tab-content content-border" id="nav-tabContent" >
                     <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
                         <div class="named">

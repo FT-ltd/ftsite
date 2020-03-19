@@ -1,3 +1,6 @@
+i {
+  color: #008080;
+}
 .selector-for-some-widget {
     box-sizing: content-box;
 }
@@ -148,10 +151,50 @@ a.link-head.active {
 
 /*Страница пдд*/
 
-.content-pdd {
-  text-align: left;
+.page-item.active .page-link {
+  background-color: teal;
+  border-color: teal;
 }
 
+.pdd-menu {
+  padding: 1px 0 0 17px;
+}
+
+.mt {
+  margin-top: 10px;
+}
+
+.tc-Teal2 {
+  color: #008080!important;
+  font-weight: 100;
+  font-family: sans-serif;
+}
+
+.nv {
+  font-size: small;
+  color: grey;
+  padding: 0px !important;
+  margin: 0px !important;
+  text-align: center;
+}
+
+.textPdd {
+  padding: 0 10px 0 10px ;
+}
+
+.numStyle {
+  color: #008080;
+}
+
+.textImg {
+  width: auto;
+  height: 34px;
+  position: relative;
+}
+
+.vnMargin {
+  margin: 5px 0px 0px 0px;
+}
 
 /*Страница входа*/
 
