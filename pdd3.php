@@ -11,105 +11,174 @@
 </head>
 <body>
 <!-- ПДД -->
-<!-- ПДД:общие положения-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-AliceBlue">
-        <a name="top" class="navbar-brand tc-Teal" href="main.php" >Теория Онлайн</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-         aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="btn-group">
-            <button class="btn btn-person btn-sm dropdown-toggle" type="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-               Фудзияма Ф. Ф.
-            </button>
-            <div class="dropdown-menu person">
-                <a href="#">Профиль</a><br>
-                <a href="#">Оценки</a><br>
-                <a href="#">Настройки</a><br>
-                <a href="#">Выход</a>
-            </div>
-        </div>
-        <div class="collapse navbar-collapse m-12" id="navbarText">
-          <ul class="navbar-nav mr-auto">
-            <li>
-              <a class="link-head" href="main.php">Главная <span class="sr-only">(current)</span></a>
-            </li>
-            <li >
-              <a class="link-head" href="lessons.php">Уроки</a>
-            </li>
-            <li>
-              <a class="link-head active" href="pdd.php">ПДД</a>
-            </li>
-            <li>
-              <a class="link-head" href="tickets.php">Билеты</a>
-            </li>
-            <li>
-              <a class="link-head" href="exam.php">Экзамен</a>
-            </li>
-          </ul>
-          <span>
-            <a href="#" data-toggle="tooltip" title="перейти на сайт автошколы" >Автошкола Прокатимся!</a>   
-          </span>
-        </div>
-    </nav>
-
-    <div class="margin-2"></div>
-    
-    <div class="wrapper">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-1">
-                  <div class="list-group content-border">
-                    <a class="list-group-item list-group-item-action nv" href="pdd2.php">назад</a>
-                  </div>
-                </div>
-                <div class="col-lg-10">
-                  <div class="content-border">
-                    <h4 class="text-center tc-Teal">ПДД</h4>
-                    <h5 class=" text-center tc-Teal2">3. Общие положения</h5>
-                    <div class="textPdd">
-                      <p>
-                        <b class="numStyle">1.1.</b> Настоящие Правила дорожного движения 2020 года** устанавливают единый порядок 
-                        дорожного движения на всей территории Российской Федерации(РФ). Другие нормативные акты, 
-                        касающиеся дорожного движения, должны основываться на требованиях Правил и не противоречить им.**
-                        В дальнейшем - Правила.
-                      </p>
-                      <p>
-                      <b class="numStyle">1.2.</b> В Правилах используются следующие основные понятия и термины: <br>
-                      <i>"Автомагистраль"</i> &mdash; дорога, обозначенная знаком 5.1 <img class="textImg" src="assets/img/z5.1.png"> ** 
-                      и имеющая для каждого направления движения проезжие части, отделенные друг от друга разделительной полосой 
-                      (а при ее отсутствии - дорожным ограждением), без пересечений в одном уровне с другими дорогами, железнодорожными 
-                      или трамвайными путями, пешеходными или велосипедными дорожками. <br> <br>
-                      ** Здесь и далее приводится нумерация дорожных знаков согласно Приложению 1 (Дорожные знаки).
-                      </p>
-
-                    </div>
-                  </div> 
-                </div>
-                <div class="col-lg-1">
-                  <div class="list-group content-border">
-                    <a class="list-group-item list-group-item-action nv" href="pdd4.php">вперед</a>
-                  </div>
-                </div>
-                                
-               
-            </div>
-        </div>
-        <div class="clear">
-        </div>
+<!-- ПДД:Применение специальных сигналов-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-AliceBlue">
+    <a name="top" class="navbar-brand tc-Teal" href="main.php" >Теория Онлайн</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="btn-group">
+      <button class="btn btn-person btn-sm dropdown-toggle" type="button" data-toggle="dropdown"
+      aria-haspopup="true" aria-expanded="false">
+      Фудзияма Ф. Ф.
+      </button>
+      <div class="dropdown-menu person">
+        <a href="#">Профиль</a><br>
+        <a href="#">Оценки</a><br>
+        <a href="#">Настройки</a><br>
+        <a href="#">Выход</a>
+      </div>
     </div>
-    <footer>
-        <div class="container">
-            <p class="text-center"><a href="#">2020</a></p>
+    <div class="collapse navbar-collapse m-12" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li>
+          <a class="link-head" href="main.php">Главная <span class="sr-only">(current)</span></a>
+        </li>
+        <li >
+          <a class="link-head" href="lessons.php">Уроки</a>
+        </li>
+        <li>
+          <a class="link-head" href="pdd.php">ПДД</a>
+        </li>
+        <li>
+          <a class="link-head" href="tickets.php">Билеты</a>
+        </li>
+        <li>
+          <a class="link-head" href="exam.php">Экзамен</a>
+        </li>
+      </ul>
+      <span>
+        <a href="#" data-toggle="tooltip" title="перейти на сайт автошколы" >Автошкола Прокатимся!</a>   
+      </span>
+    </div>
+  </nav>
+
+  <div class="margin-2"></div>
+    
+  <div class="wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-1">
+          <div class="list-group content-border">
+            <a class="list-group-item list-group-item-action nv" href="pdd2.php">назад</a>
+          </div>
         </div>
-    </footer>
+        <div class="col-lg-10">
+          <div class="content-border">
+            <h4 class="text-center tc-Teal">ПДД</h4>
+            <h5 class=" text-center tc-Teal2">3. Применение специальных сигналов</h5>
+            <div class="textPdd">
+              <p>
+                <b class="numStyle">3.1.</b> Водители транспортных средств с включенным проблесковым маячком синего цвета, 
+                выполняя неотложное служебное задание, могут отступать от требований разделов 6 (кроме сигналов регулировщика) 
+                и 8 - 18 настоящих Правил, приложений 1 (Дорожные знаки) и 2 (Дорожная разметка) к настоящим Правилам при условии 
+                обеспечения безопасности движения. <br>
+                Для получения преимущества перед другими участниками движения водители таких транспортных средств должны включить 
+                проблесковый маячок синего цвета и специальный звуковой сигнал. Воспользоваться приоритетом они могут только убедившись, 
+                что им уступают дорогу. <br> <br>
+                Этим же правом пользуются водители транспортных средств, сопровождаемых транспортными средствами, имеющими нанесенные 
+                на наружные поверхности специальные цветографические схемы, с включенными проблесковыми маячками синего и красного цветов 
+                и специальным звуковым сигналом, в случаях, установленных настоящим пунктом. На сопровождаемых транспортных средствах должен 
+                быть включен ближний свет фар. <br> <br>
+                На транспортных средствах Государственной инспекции безопасности дорожного движения Министерства внутренних дел Российской 
+                Федерации, Федеральной службы охраны Российской Федерации, Федеральной службы безопасности Российской Федерации и Военной 
+                автомобильной инспекции дополнительно к проблесковому маячку синего цвета может быть включен проблесковый маячок красного цвета.
+              </p>
+              <p>
+                <b class="numStyle">3.2.</b> При приближении транспортного средства с включенными проблесковым маячком синего цвета и специальным 
+                звуковым сигналом водители обязаны уступить дорогу для обеспечения беспрепятственного проезда указанного транспортного средства. <br>
+                При приближении транспортного средства, имеющего нанесенные на наружные поверхности специальные цветографические схемы, с включенными 
+                проблесковыми маячками синего и красного цветов и специальным звуковым сигналом водители обязаны уступить дорогу для обеспечения 
+                беспрепятственного проезда указанного транспортного средства, а также сопровождаемого им транспортного средства (сопровождаемых 
+                транспортных средств). <br> <br>
+                Запрещается выполнять обгон транспортного средства, имеющего нанесенные на наружные поверхности специальные цветографические схемы с 
+                включенными проблесковым маячком синего цвета и специальным звуковым сигналом. <br> <br>
+                Запрещается выполнять обгон транспортного средства, имеющего нанесенные на наружные поверхности специальные цветографические схемы, с 
+                включенными проблесковыми маячками синего и красного цветов и специальным звуковым сигналом, а также сопровождаемого им транспортного 
+                средства (сопровождаемых транспортных средств).
+              </p>
+              <p>
+                <b class="numStyle">3.3.</b> Приближаясь к стоящему транспортному средству с включенным проблесковым маячком синего цвета, водитель 
+                должен снизить скорость, чтобы иметь возможность немедленно остановиться в случае необходимости.
+              </p>
+              <p>
+                <b class="numStyle">3.4.</b> Проблесковый маячок желтого или оранжевого цвета должен быть включен на транспортных средствах в 
+                следующих случаях:
+                <ul>
+                  <li>выполнение работ по строительству, ремонту или содержанию дорог, погрузке поврежденных, неисправных и перемещаемых 
+                  транспортных средств;</li>
+                  <li>перевозка крупногабаритных грузов, взрывчатых, легковоспламеняющихся, радиоактивных веществ и ядовитых веществ высокой 
+                  степени опасности;</li>
+                  <li>сопровождение транспортных средств, перевозящих крупногабаритные, тяжеловесные и опасные грузы;</li>
+                  <li>сопровождение организованных групп велосипедистов при проведении тренировочных мероприятий на автомобильных 
+                  дорогах общего пользования;</li>
+                  <li>организованная перевозка группы детей.</li>
+                </ul>
+                Включенный проблесковый маячок желтого или оранжевого цвета не дает преимущества в движении и служит для предупреждения 
+                других участников движения об опасности.
+              </p>
+              <p>
+                <b class="numStyle">3.5.</b> Водители транспортных средств с включенным проблесковым маячком желтого или оранжевого цвета 
+                при выполнении работ по строительству, ремонту или содержанию дорог, погрузке поврежденных, неисправных и перемещаемых 
+                транспортных средств могут отступать от требований дорожных знаков (кроме знаков 2.2 <img class="textImg" src="#">, 2.4 - 2.6 
+                <img class="textImg" src="#"> <img class="textImg" src="#"> <img class="textImg" src="#">, 3.11 - 3.14 <img class="textImg" src="#">
+                <img class="textImg" src="#"> <img class="textImg" src="#"> <img class="textImg" src="#">, 3.17.2 <img class="textImg" src="#">,
+                3.20 <img class="textImg" src="#">)
+                и дорожной разметки, а также пунктов 9.4 - 9.8 и 16.1 настоящих Правил при условии обеспечения безопасности дорожного движения. <br>
+                Водители транспортных средств при перевозке крупногабаритных грузов, а также при осуществлении сопровождения транспортных средств, 
+                перевозящих крупногабаритные и (или) тяжеловесные грузы, с включенным проблесковым маячком желтого или оранжевого цвета могут 
+                отступать от требований дорожной разметки при условии обеспечения безопасности дорожного движения.
+              </p>
+              <p>
+                <b class="numStyle">3.6.</b>  Водители транспортных средств организаций федеральной почтовой связи и транспортных средств, 
+                перевозящих денежную выручку и (или) ценные грузы, могут включать проблесковый маячок бело-лунного цвета и специальный 
+                звуковой сигнал только при нападениях на указанные транспортные средства. Проблесковый маячок бело-лунного цвета не дает 
+                преимущества в движении и служит для привлечения внимания сотрудников полиции и иных лиц.
+              </p>
+            </div>
+          </div> 
+        </div>
+        <div class="col-lg-1">
+          <div class="list-group content-border">
+            <a class="list-group-item list-group-item-action nv" href="pdd4.php">вперед</a>
+          </div>
+        </div>
+        <div class="col-lg-1">
+          <div class="list-group content-border vnMargin">
+            <a class="list-group-item list-group-item-action nv" href="pdd2.php">назад</a>
+          </div>
+        </div>
+        <div class="col-lg-4">
+        </div>
+        <div class="col-lg-2">
+          <div class="list-group content-border vnMargin">
+            <a class="list-group-item list-group-item-action nv" href="#top">наверх</a>
+          </div>
+        </div>
+        <div class="col-lg-4">
+        </div>
+        <div class="col-lg-1">
+          <div class="list-group content-border vnMargin">
+            <a class="list-group-item list-group-item-action nv" href="pdd4.php">вперед</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="clear">
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <p class="text-center"><a href="#">2020</a></p>
+    </div>
+  </footer>
 
     
     
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="assets/js/bootstrap.min.js"></script>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="assets/js/bootstrap.min.js"></script>
 </body>
 </html>

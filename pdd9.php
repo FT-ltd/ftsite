@@ -7,109 +7,205 @@
     <title>Главная</title>
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
-    
 </head>
 <body>
 <!-- ПДД -->
-<!-- ПДД:общие положения-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-AliceBlue">
-        <a class="navbar-brand tc-Teal" href="main.php" >Теория Онлайн</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-         aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="btn-group">
-            <button class="btn btn-person btn-sm dropdown-toggle" type="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-               Фудзияма Ф. Ф.
-            </button>
-            <div class="dropdown-menu person">
-                <a href="#">Профиль</a><br>
-                <a href="#">Оценки</a><br>
-                <a href="#">Настройки</a><br>
-                <a href="#">Выход</a>
-            </div>
-        </div>
-        <div class="collapse navbar-collapse m-12" id="navbarText">
-          <ul class="navbar-nav mr-auto">
-            <li>
-              <a class="link-head" href="main.php">Главная <span class="sr-only">(current)</span></a>
-            </li>
-            <li >
-              <a class="link-head" href="lessons.php">Уроки</a>
-            </li>
-            <li>
-              <a class="link-head active" href="pdd.php">ПДД</a>
-            </li>
-            <li>
-              <a class="link-head" href="tickets.php">Билеты</a>
-            </li>
-            <li>
-              <a class="link-head" href="exam.php">Экзамен</a>
-            </li>
-          </ul>
-          <span>
-            <a href="#" data-toggle="tooltip" title="перейти на сайт автошколы" >Автошкола Прокатимся!</a>   
-          </span>
-        </div>
-    </nav>
-
-    <div class="margin-2"></div>
-    
-    <div class="wrapper">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-1">
-                  <div class="list-group content-border">
-                    <a class="list-group-item list-group-item-action nv" href="pdd8.php">назад</a>
-                  </div>
-                </div>
-                <div class="col-lg-10">
-                  <div class="content-border">
-                    <h4 class="text-center tc-Teal">ПДД</h4>
-                    <h5 class=" text-center tc-Teal2">9. Общие положения</h5>
-                    <div class="textPdd">
-                      <p>
-                        <b class="numStyle">1.1.</b> Настоящие Правила дорожного движения 2020 года** устанавливают единый порядок 
-                        дорожного движения на всей территории Российской Федерации(РФ). Другие нормативные акты, 
-                        касающиеся дорожного движения, должны основываться на требованиях Правил и не противоречить им.**
-                        В дальнейшем - Правила.
-                      </p>
-                      <p>
-                      <b class="numStyle">1.2.</b> В Правилах используются следующие основные понятия и термины: <br>
-                      <i>"Автомагистраль"</i> &mdash; дорога, обозначенная знаком 5.1 <img class="textImg" src="assets/img/z5.1.png"> ** 
-                      и имеющая для каждого направления движения проезжие части, отделенные друг от друга разделительной полосой 
-                      (а при ее отсутствии - дорожным ограждением), без пересечений в одном уровне с другими дорогами, железнодорожными 
-                      или трамвайными путями, пешеходными или велосипедными дорожками. <br> <br>
-                      ** Здесь и далее приводится нумерация дорожных знаков согласно Приложению 1 (Дорожные знаки).
-                      </p>
-
-                    </div>
-                  </div> 
-                </div>
-                <div class="col-lg-1">
-                  <div class="list-group content-border">
-                    <a class="list-group-item list-group-item-action nv" href="pdd10.php">вперед</a>
-                  </div>
-                </div>
-                                
-               
-            </div>
-        </div>
-        <div class="clear">
-        </div>
+<!-- ПДД:Расположение транспортных средств на проезжей части-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-AliceBlue">
+    <a name="top" class="navbar-brand tc-Teal" href="main.php" >Теория Онлайн</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="btn-group">
+      <button class="btn btn-person btn-sm dropdown-toggle" type="button" data-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false">
+        Фудзияма Ф. Ф.
+      </button>
+      <div class="dropdown-menu person">
+        <a href="#">Профиль</a><br>
+        <a href="#">Оценки</a><br>
+        <a href="#">Настройки</a><br>
+        <a href="#">Выход</a>
+      </div>
     </div>
-    <footer>
-        <div class="container">
-            <p class="text-center"><a href="#">2020</a></p>
+    <div class="collapse navbar-collapse m-12" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li>
+          <a class="link-head" href="main.php">Главная <span class="sr-only">(current)</span></a>
+        </li>
+        <li >
+          <a class="link-head" href="lessons.php">Уроки</a>
+        </li>
+        <li>
+          <a class="link-head" href="pdd.php">ПДД</a>
+        </li>
+        <li>
+          <a class="link-head" href="tickets.php">Билеты</a>
+        </li>
+        <li>
+          <a class="link-head" href="exam.php">Экзамен</a>
+        </li>
+      </ul>
+      <span>
+        <a href="#" data-toggle="tooltip" title="перейти на сайт автошколы" >Автошкола Прокатимся!</a>   
+      </span>
+    </div>
+  </nav>
+
+  <div class="margin-2"></div>
+    
+  <div class="wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-1">
+          <div class="list-group content-border">
+            <a class="list-group-item list-group-item-action nv" href="pdd3.php">назад</a>
+          </div>
         </div>
-    </footer>
+        <div class="col-lg-10">
+          <div class="content-border">
+            <h4 class="text-center tc-Teal">ПДД</h4>
+            <h5 class=" text-center tc-Teal2">9. Расположение транспортных средств на проезжей части</h5>
+            <div class="textPdd">
+              <p>
+                <b class="numStyle">9.1.</b> Количество полос движения для безрельсовых транспортных средств 
+                определяется разметкой и (или) знаками 5.15.1 <img class="textImg" src="#">, 5.15.2 
+                <img class="textImg" src="#">, 5.15.7 <img class="textImg" src="#">, 5.15.8 <img class="textImg" src="#">,
+                а если их нет, то самими водителями с учетом ширины проезжей части, габаритов транспортных средств и 
+                необходимых интервалов между ними. При этом стороной, предназначенной для встречного движения на дорогах 
+                с двусторонним движением без разделительной полосы, считается половина ширины проезжей части, расположенная 
+                слева, не считая местных уширений проезжей части (переходно-скоростные полосы, дополнительные полосы на подъем, 
+                заездные карманы мест остановок маршрутных транспортных средств).
+              </p>
+              <p>
+                <b class="numStyle">9.1(1).</b> На любых дорогах с двусторонним движением запрещается движение по полосе, 
+                предназначенной для встречного движения, если она отделена трамвайными путями, разделительной полосой, 
+                разметкой 1.1 <img class="textImg" src="#">, 1.3 <img class="textImg" src="#"> или разметкой 1.11 
+                <img class="textImg" src="#">, прерывистая линия которой расположена слева.
+              </p>
+              <p>
+                <b class="numStyle">9.2.</b> На дорогах с двусторонним движением, имеющих четыре или более полосы, 
+                запрещается выезжать для обгона или объезда на полосу, предназначенную для встречного движения. На 
+                таких дорогах повороты налево или развороты могут выполняться на перекрестках и в других местах, где 
+                это не запрещено Правилами, знаками и (или) разметкой.
+              </p>
+              <p>
+                <b class="numStyle">9.3.</b>  На дорогах с двусторонним движением, имеющих три полосы, обозначенные 
+                разметкой (за исключением разметки 1.9 <img class="textImg" src="#">), из которых средняя используется 
+                для движения в обоих направлениях, разрешается выезжать на эту полосу только для обгона, объезда, поворота 
+                налево или разворота. Выезжать на крайнюю левую полосу, предназначенную для встречного движения, запрещается.
+              </p>
+              <p>
+                <b class="numStyle">9.4.</b> Вне населенных пунктов, а также в населенных пунктах на дорогах, 
+                обозначенных знаком 5.1 <img class="textImg" src="#"> или 5.3 <img class="textImg" src="#"> или 
+                где разрешено движение со скоростью более 80 км/ч, водители транспортных средств должны вести их по 
+                возможности ближе к правому краю проезжей части. Запрещается занимать левые полосы движения при свободных 
+                правых. <br>
+                В населенных пунктах с учетом требований настоящего пункта и пунктов 9.5, 16.1 и 24.2 Правил водители 
+                транспортных средств могут использовать наиболее удобную для них полосу движения. При интенсивном движении, 
+                когда все полосы движения заняты, менять полосу разрешается только для поворота налево или направо, разворота, 
+                остановки или объезда препятствия. <br> <br>
+                Однако на любых дорогах, имеющих для движения в данном направлении три полосы и более, занимать крайнюю левую 
+                полосу разрешается только при интенсивном движении, когда заняты другие полосы, а также для поворота налево 
+                или разворота, а грузовым автомобилям с разрешенной максимальной массой более 2,5 т - только для поворота налево 
+                или разворота. Выезд на левую полосу дорог с односторонним движением для остановки и стоянки осуществляется в 
+                соответствии с пунктом 12.1 Правил.
+              </p>
+              <p>
+                <b class="numStyle">9.5.</b> Транспортные средства, скорость движения которых не должна превышать 40 км/ч или которые 
+                по техническим причинам не могут развивать такую скорость, должны двигаться по крайней правой полосе, кроме 
+                случаев объезда, обгона или перестроения перед поворотом налево разворотом или остановкой в разрешенных случаях 
+                на левой стороне дороги.
+              </p>
+              <p>
+                <b class="numStyle">9.6.</b> Разрешается движение по трамвайным путям попутного направления, расположенным 
+                слева на одном уровне с проезжей частью, когда заняты все полосы данного направления, а также при объезде, 
+                повороте налево или развороте с учетом пункта 8.5 Правил. При этом не должно создаваться помех трамваю. Выезжать 
+                на трамвайные пути встречного направления запрещается. Если перед перекрестком установлены дорожные знаки 5.15.1
+                <img class="textImg" src="#"> или 5.15.2 <img class="textImg" src="#">, движение по трамвайным путям через 
+                перекресток запрещается.
+              </p>
+              <p>
+                <b class="numStyle">9.7.</b> Если проезжая часть разделена на полосы линиями разметки, движение транспортных 
+                средств должно осуществляться строго по обозначенным полосам. Наезжать на прерывистые линии разметки разрешается 
+                лишь при перестроении.
+              </p>
+              <p>
+                <b class="numStyle">9.8.</b> При повороте на дорогу с реверсивным движением водитель должен вести транспортное 
+                средство таким образом, чтобы при выезде с пересечения проезжих частей транспортное средство заняло крайнюю 
+                правую полосу. Перестроение разрешается только после того, как водитель убедится, что движение в данном 
+                направлении разрешается и по другим полосам.
+              </p>
+              <p>
+                <b class="numStyle">9.9.</b> Запрещается движение транспортных средств по разделительным полосам и обочинам, 
+                тротуарам и пешеходным дорожкам (за исключением случаев, предусмотренных пунктами 12.1, 24.2 - 24.4, 24.7, 25.2 Правил), 
+                а также движение механических транспортных средств (кроме мопедов) по полосам для велосипедистов. Запрещается 
+                движение механических транспортных средств по велосипедным и велопешеходным дорожкам. Допускается движение машин 
+                дорожно-эксплуатационных и коммунальных служб, а также подъезд по кратчайшему пути транспортных средств, подвозящих 
+                грузы к торговым и другим предприятиям и объектам, расположенным непосредственно у обочин, тротуаров или пешеходных 
+                дорожек, при отсутствии других возможностей подъезда. При этом должна быть обеспечена безопасность движения.
+              </p>
+              <p>
+                <b class="numStyle">9.10.</b> Водитель должен соблюдать такую дистанцию до движущегося впереди транспортного средства, 
+                которая позволила бы избежать столкновения, а также необходимый боковой интервал, обеспечивающий безопасность движения.
+              </p>
+              <p>
+                <b class="numStyle">9.11.</b> Вне населенных пунктов на дорогах с двусторонним движением, имеющих две полосы, водитель 
+                транспортного средства, для которого установлено ограничение скорости, а также водитель транспортного средства 
+                (состава транспортных средств) длиной более 7 м должен поддерживать между своим и движущимся впереди транспортным 
+                средством такую дистанцию, чтобы обгоняющие его транспортные средства могли без помех перестроиться на ранее 
+                занимаемую ими полосу. Это требование не действует при движении по участкам дорог, на которых запрещается обгон, 
+                а также при интенсивном движении и движении в организованной транспортной колонне.
+              </p>
+              <p>
+                <b class="numStyle">9.12.</b> На дорогах с двусторонним движением при отсутствии разделительной полосы островки безопасности, 
+                тумбы и элементы дорожных сооружений (опоры мостов, путепроводов и тому подобное), находящиеся на середине 
+                проезжей части, водитель должен объезжать справа, если знаки и разметка не предписывают иное.
+              </p>
+            </div>
+          </div> 
+        </div>
+        <div class="col-lg-1">
+          <div class="list-group content-border">
+            <a class="list-group-item list-group-item-action nv" href="pdd10.php">вперед</a>
+          </div>
+        </div>
+        <div class="col-lg-1">
+          <div class="list-group content-border vnMargin">
+            <a class="list-group-item list-group-item-action nv" href="pdd8.php">назад</a>
+          </div>
+        </div>
+        <div class="col-lg-4">
+        </div>
+        <div class="col-lg-2">
+          <div class="list-group content-border vnMargin">
+            <a class="list-group-item list-group-item-action nv" href="#top">наверх</a>
+          </div>
+        </div>
+        <div class="col-lg-4">
+        </div>
+        <div class="col-lg-1">
+          <div class="list-group content-border vnMargin">
+            <a class="list-group-item list-group-item-action nv" href="pdd10.php">вперед</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="clear">
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <p class="text-center"><a href="#">2020</a></p>
+    </div>
+  </footer>
 
     
     
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="assets/js/bootstrap.min.js"></script>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="assets/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -7,109 +7,173 @@
     <title>Главная</title>
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
-    
 </head>
 <body>
 <!-- ПДД -->
-<!-- ПДД:общие положения-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-AliceBlue">
-        <a name="top" class="navbar-brand tc-Teal" href="main.php" >Теория Онлайн</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-         aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="btn-group">
-            <button class="btn btn-person btn-sm dropdown-toggle" type="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-               Фудзияма Ф. Ф.
-            </button>
-            <div class="dropdown-menu person">
-                <a href="#">Профиль</a><br>
-                <a href="#">Оценки</a><br>
-                <a href="#">Настройки</a><br>
-                <a href="#">Выход</a>
-            </div>
-        </div>
-        <div class="collapse navbar-collapse m-12" id="navbarText">
-          <ul class="navbar-nav mr-auto">
-            <li>
-              <a class="link-head" href="main.php">Главная <span class="sr-only">(current)</span></a>
-            </li>
-            <li >
-              <a class="link-head" href="lessons.php">Уроки</a>
-            </li>
-            <li>
-              <a class="link-head active" href="pdd.php">ПДД</a>
-            </li>
-            <li>
-              <a class="link-head" href="tickets.php">Билеты</a>
-            </li>
-            <li>
-              <a class="link-head" href="exam.php">Экзамен</a>
-            </li>
-          </ul>
-          <span>
-            <a href="#" data-toggle="tooltip" title="перейти на сайт автошколы" >Автошкола Прокатимся!</a>   
-          </span>
-        </div>
-    </nav>
-
-    <div class="margin-2"></div>
-    
-    <div class="wrapper">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-1">
-                  <div class="list-group content-border">
-                    <a class="list-group-item list-group-item-action nv" href="pdd3.php">назад</a>
-                  </div>
-                </div>
-                <div class="col-lg-10">
-                  <div class="content-border">
-                    <h4 class="text-center tc-Teal">ПДД</h4>
-                    <h5 class=" text-center tc-Teal2">4. Общие положения</h5>
-                    <div class="textPdd">
-                      <p>
-                        <b class="numStyle">1.1.</b> Настоящие Правила дорожного движения 2020 года** устанавливают единый порядок 
-                        дорожного движения на всей территории Российской Федерации(РФ). Другие нормативные акты, 
-                        касающиеся дорожного движения, должны основываться на требованиях Правил и не противоречить им.**
-                        В дальнейшем - Правила.
-                      </p>
-                      <p>
-                      <b class="numStyle">1.2.</b> В Правилах используются следующие основные понятия и термины: <br>
-                      <i>"Автомагистраль"</i> &mdash; дорога, обозначенная знаком 5.1 <img class="textImg" src="assets/img/z5.1.png"> ** 
-                      и имеющая для каждого направления движения проезжие части, отделенные друг от друга разделительной полосой 
-                      (а при ее отсутствии - дорожным ограждением), без пересечений в одном уровне с другими дорогами, железнодорожными 
-                      или трамвайными путями, пешеходными или велосипедными дорожками. <br> <br>
-                      ** Здесь и далее приводится нумерация дорожных знаков согласно Приложению 1 (Дорожные знаки).
-                      </p>
-
-                    </div>
-                  </div> 
-                </div>
-                <div class="col-lg-1">
-                  <div class="list-group content-border">
-                    <a class="list-group-item list-group-item-action nv" href="pdd5.php">вперед</a>
-                  </div>
-                </div>
-                                
-               
-            </div>
-        </div>
-        <div class="clear">
-        </div>
+<!-- ПДД:Обязанности пешеходов-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-AliceBlue">
+    <a name="top" class="navbar-brand tc-Teal" href="main.php" >Теория Онлайн</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="btn-group">
+      <button class="btn btn-person btn-sm dropdown-toggle" type="button" data-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false">
+        Фудзияма Ф. Ф.
+      </button>
+      <div class="dropdown-menu person">
+        <a href="#">Профиль</a><br>
+        <a href="#">Оценки</a><br>
+        <a href="#">Настройки</a><br>
+        <a href="#">Выход</a>
+      </div>
     </div>
-    <footer>
-        <div class="container">
-            <p class="text-center"><a href="#">2020</a></p>
+    <div class="collapse navbar-collapse m-12" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li>
+          <a class="link-head" href="main.php">Главная <span class="sr-only">(current)</span></a>
+        </li>
+        <li >
+          <a class="link-head" href="lessons.php">Уроки</a>
+        </li>
+        <li>
+          <a class="link-head" href="pdd.php">ПДД</a>
+        </li>
+        <li>
+          <a class="link-head" href="tickets.php">Билеты</a>
+        </li>
+        <li>
+          <a class="link-head" href="exam.php">Экзамен</a>
+        </li>
+      </ul>
+      <span>
+        <a href="#" data-toggle="tooltip" title="перейти на сайт автошколы" >Автошкола Прокатимся!</a>   
+      </span>
+    </div>
+  </nav>
+
+  <div class="margin-2"></div>
+    
+  <div class="wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-1">
+          <div class="list-group content-border">
+            <a class="list-group-item list-group-item-action nv" href="pdd3.php">назад</a>
+          </div>
         </div>
-    </footer>
+        <div class="col-lg-10">
+          <div class="content-border">
+            <h4 class="text-center tc-Teal">ПДД</h4>
+            <h5 class=" text-center tc-Teal2">4. Обязанности пешеходов</h5>
+            <div class="textPdd">
+              <p>
+                <b class="numStyle">4.1.</b> Пешеходы должны двигаться по тротуарам, пешеходным дорожкам, велопешеходным дорожкам, 
+                а при их отсутствии - по обочинам. Пешеходы, перевозящие или переносящие громоздкие предметы, а также лица, 
+                передвигающиеся в инвалидных колясках, могут двигаться по краю проезжей части, если их движение по тротуарам 
+                или обочинам создает помехи для других пешеходов. <br>
+                При отсутствии тротуаров, пешеходных дорожек, велопешеходных дорожек или обочин, а также в случае невозможности 
+                двигаться по ним пешеходы могут двигаться по велосипедной дорожке или идти в один ряд по краю проезжей части 
+                (на дорогах с разделительной полосой - по внешнему краю проезжей части). <br> <br>
+                При движении по краю проезжей части пешеходы должны идти навстречу движению транспортных средств. 
+                Лица, передвигающиеся в инвалидных колясках, ведущие мотоцикл, мопед, велосипед, в этих случаях должны следовать 
+                по ходу движения транспортных средств. <br> <br>
+                При переходе дороги и движении по обочинам или краю проезжей части в темное время суток или в условиях недостаточной 
+                видимости пешеходам рекомендуется, а вне населенных пунктов пешеходы обязаны иметь при себе предметы со световозвращающими 
+                элементами и обеспечивать видимость этих предметов водителями транспортных средств.
+              </p>
+              <p>
+                <b class="numStyle">4.2.</b> Движение организованных пеших колонн по проезжей части разрешается только по направлению 
+                движения транспортных средств по правой стороне не более чем по четыре человека в ряд. Спереди и сзади колонны с 
+                левой стороны должны находиться сопровождающие с красными флажками, а в темное время суток и в условиях недостаточной 
+                видимости - с включенными фонарями: спереди - белого цвета, сзади - красного. <br>
+                Группы детей разрешается водить только по тротуарам и пешеходным дорожкам, а при их отсутствии - и по обочинам, но лишь 
+                в светлое время суток и только в сопровождении взрослых.
+              </p>
+              <p>
+                <b class="numStyle">4.3.</b> Пешеходы должны переходить дорогу по пешеходным переходам, в том числе по подземным и надземным, 
+                а при их отсутствии - на перекрестках по линии тротуаров или обочин. <br>
+                На регулируемом перекрестке допускается переходить проезжую часть между противоположными углами перекрестка (по диагонали) 
+                только при наличии разметки 1.14.1 <img class="textImg" src="#"> или 1.14.2 <img class="textImg" src="#">, обозначающей такой 
+                пешеходный переход. <br> <br>
+                При отсутствии в зоне видимости перехода или перекрестка разрешается переходить дорогу под прямым углом к краю проезжей части 
+                на участках без разделительной полосы и ограждений там, где она хорошо просматривается в обе стороны. <br> <br>
+                Требования настоящего пункта не распространяются на велосипедные зоны.
+              </p>
+              <p>
+                <b class="numStyle">4.4.</b> В местах, где движение регулируется, пешеходы должны руководствоваться сигналами регулировщика или 
+                пешеходного светофора, а при его отсутствии - транспортного светофора.
+              </p>
+              <p>
+                <b class="numStyle">4.5.</b> На нерегулируемых пешеходных переходах пешеходы могут выходить на проезжую часть (трамвайные пути) 
+                после того, как оценят расстояние до приближающихся транспортных средств, их скорость и убедятся, что переход будет для них безопасен. 
+                При переходе дороги вне пешеходного перехода пешеходы, кроме того, не должны создавать помех для движения транспортных средств и 
+                выходить из-за стоящего транспортного средства или иного препятствия, ограничивающего обзорность, не убедившись в отсутствии 
+                приближающихся транспортных средств.
+              </p>
+              <p>
+                <b class="numStyle">4.6.</b> Выйдя на проезжую часть (трамвайные пути), пешеходы не должны задерживаться или останавливаться, 
+                если это не связано с обеспечением безопасности движения. Пешеходы, не успевшие закончить переход, должны остановиться на 
+                островке безопасности или на линии, разделяющей транспортные потоки противоположных направлений. Продолжать переход можно 
+                лишь убедившись в безопасности дальнейшего движения и с учетом сигнала светофора (регулировщика).
+              </p>
+              <p>
+                <b class="numStyle">4.7.</b>  При приближении транспортных средств с включенным проблесковым маячком синего цвета 
+                (синего и красного цветов) и специальным звуковым сигналом пешеходы обязаны воздержаться от перехода дороги, а пешеходы, 
+                находящиеся на проезжей части (трамвайных путях), должны незамедлительно освободить проезжую часть (трамвайные пути).
+              </p>
+              <p>
+                <b class="numStyle">4.8.</b> Ожидать маршрутное транспортное средство и такси разрешается только на приподнятых над проезжей 
+                частью посадочных площадках, а при их отсутствии - на тротуаре или обочине. В местах остановок маршрутных транспортных средств, 
+                не оборудованных приподнятыми посадочными площадками, разрешается выходить на проезжую часть для посадки в транспортное средство 
+                лишь после его остановки. После высадки необходимо, не задерживаясь, освободить проезжую часть. <br>
+                При движении через проезжую часть к месту остановки маршрутного транспортного средства или от него пешеходы должны руководствоваться 
+                требованиями пунктов 4.4 - 4.7 Правил.
+              </p>
+            </div>
+          </div> 
+        </div>
+        <div class="col-lg-1">
+          <div class="list-group content-border">
+            <a class="list-group-item list-group-item-action nv" href="pdd5.php">вперед</a>
+          </div>
+        </div>
+        <div class="col-lg-1">
+          <div class="list-group content-border vnMargin">
+            <a class="list-group-item list-group-item-action nv" href="pdd3.php">назад</a>
+          </div>
+        </div>
+        <div class="col-lg-4">
+        </div>
+        <div class="col-lg-2">
+          <div class="list-group content-border vnMargin">
+            <a class="list-group-item list-group-item-action nv" href="#top">наверх</a>
+          </div>
+        </div>
+        <div class="col-lg-4">
+        </div>
+        <div class="col-lg-1">
+          <div class="list-group content-border vnMargin">
+            <a class="list-group-item list-group-item-action nv" href="pdd5.php">вперед</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="clear">
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <p class="text-center"><a href="#">2020</a></p>
+    </div>
+  </footer>
 
     
     
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="assets/js/bootstrap.min.js"></script>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="assets/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -85,7 +85,6 @@
                   <div class="content-border">
                     <h4 class="text-center tc-Teal">ПДД</h4>
                     <ul class="list-group">
-                      
                       <li class="list-group-item pdd-menu"><a href="pdd16.php">16.Движение по автомагистралям</a></li>
                       <li class="list-group-item pdd-menu"><a href="pdd17.php">17.Движение в жилых зонах</a></li> 
                       <li class="list-group-item pdd-menu"><a href="pdd18.php">18.Приоритет маршрутных транспортных средств</a></li>
