@@ -192,6 +192,12 @@ a.link-head.active {
   position: relative;
 }
 
+.znakImg {
+  width: auto;
+  height: 54px;
+  vertical-align: middle;
+}
+
 .vnMargin {
   margin: 5px 0px 0px 0px;
 }
