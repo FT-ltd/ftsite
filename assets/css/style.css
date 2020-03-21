@@ -1,6 +1,11 @@
 i {
   color: #008080;
 }
+
+td {
+  padding: 7px;
+}
+
 .selector-for-some-widget {
     box-sizing: content-box;
 }
@@ -194,13 +199,24 @@ a.link-head.active {
 
 .znakImg {
   width: auto;
-  height: 54px;
-  vertical-align: middle;
+  height: 85px;
 }
+
+.znakTable {
+  width: 100%;
+}
+
+.wid30 {
+  width: 30%;
+}
+ .alignTablImg {
+  vertical-align: top !important;
+ }
 
 .vnMargin {
   margin: 5px 0px 0px 0px;
 }
+
 
 /*Страница входа*/
 
